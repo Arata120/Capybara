@@ -1,0 +1,191 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra_separadora{
+    width: 100%;
+    height: 60px;
+    background: #f68c70;
+}
+
+.barra_separadora_informat{
+    width: 100%;
+    height: 60px;
+    background: #dd556e;
+    margin: 6px 0px;
+}
+
+.barra_button_carrusel{
+    width: 100%;
+    height: 40px;
+    background: #ff445e;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background: #f99c70;
+    margin: 6px 0px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px 30px;
+    padding: 20px 0px;
+}
+
+ul{
+    padding: 10px 0px;
+}
+
+.btn-a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0px;
+    transition: transform 0.3s ease, margin 0.4s ease;
+}
+
+.btn-a:hover{
+    background-color: #f67c70;
+    transform: scale(1.1);
+    margin: 0px 15px;
+}
+
+.Text_information_personal{
+    width: 100%;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.title_personal{
+    margin-top: 20px;
+    padding: 12px 0px;
+}
+
+.text_personal{
+    font-size: 17px;
+    padding: 2px 0px;
+}
+
+.barra_bottom_main{
+    width: 100%;
+    height: 40px;
+    background: #4a7df0;
+    margin: 6px 0px;;
+}
+
+.Subsection_informat{
+    width: 100%;
+    height: 950px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_informat{
+    width: 85%;
+    height: 30%;
+    margin: 35px 110px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section_box_informat{
+    width: 52%;
+    height: 95%;
+    margin: 0px 45px;
+    padding: 0px 45px;
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 
+                0 14px 28px rgba(0, 0, 0, 0.1);
+}
+
+.aside_box_informat{
+    width: 28%;
+    height: 95%;
+    border-radius: 20px;
+    border: 2px solid purple;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 
+                0 14px 28px rgba(0, 0, 0, 0.1);
+}
+
+.delado{
+    text-align: end;
+}
+
+.barra_top_informat{
+    width: 100%;
+    height: 60px;
+    background: #11388e;
+}
+
+.title_informat{
+    padding: 5px;
+    margin-top: 18px;
+    border-bottom: 2px solid #888;
+}
+
+.text_informat{
+    margin: 20px 0px;
+    padding: 4px 0px;
+    font-size: 14px;
+}
+
+.barra_contactos{
+    width: 100%;
+    height: 60px;
+    background: #7bb4e3;
+}
+
+.barra_contactos_small{
+    width: 100%;
+    height: 40px;
+    background: #a3ceef;
+    margin: 6px 0px;
+}
+
+.contactos_calificaciones{
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+
+.box_small{
+    width: 78%;
+    height: 40%;
+    border: 1px solid green;
+    margin: 58px 168px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.box_content_ordinal{
+    width: 30%;
+    height: 90%;
+    margin: 13px 20px;
+    border:1px solid red ;
+    border-radius: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 
+                0 14px 28px rgba(0, 0, 0, 0.1);
+}
+
+/*cambiar los diferentes tipos de barras a 2 tipos de barras de 60 y 40*/

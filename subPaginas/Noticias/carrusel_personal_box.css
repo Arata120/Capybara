@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_box_carrusel{
+    width: 100%;
+    height: calc(100vh - 170px);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    color: black;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: 20px;
+    align-items: center;
+    overflow: hidden;
+    color: black;
+}
+
+.carousel-content {
+    display: flex;
+    transition: transform 1.8s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+}
+
+.button {
+    top: 50%;
+    transform: translateY(-50%);
+    background: whitesmoke;
+    color: #f99c70;
+    border: 2px solid #ff445e;
+    border-radius: 40px;
+    padding: 20px 10px;
+    cursor: pointer; /* Asegura que los botones estén en la parte superior */
+    transition: transform 1s ease;
+}
+
+.button:hover{
+    border: 2px solid #f99c70;
+    background: whitesmoke;
+    color: #ff445e;
+}
+
+.prev {
+    left: 25px;
+}
+
+.next {
+    right: 20px;
+}
+
+.Text_information_personal{
+    width: 100%;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.title_personal{
+    margin-top: 20px;
+    padding: 12px 0px;
+}
+
+.text_personal{
+    font-size: 17px;
+    padding: 2px 0px;
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafbfc;
+}
+.caja {
+    position: relative;
+    margin: 0px 50px;
+    width: 320px;
+    height: 81%;
+    background: #333;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.circulo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out; /*permite mover el circulo*/
+}
+.texto {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: center;
+    transition: bottom 0.5s ease-in-out;
+}
+.caja:hover .texto {
+    bottom: 40px; /* Ajustar la altura del texto */
+}
+.caja:hover .circulo {
+    transform: translateY(-60px); /* Mover el círculo hacia arriba */
+}

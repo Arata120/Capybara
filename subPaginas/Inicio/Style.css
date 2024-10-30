@@ -1,0 +1,30 @@
+
+.busquedas{
+    padding: 13px;
+    width: 800px;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: -20px;
+    font-size: 13px;
+    
+    border: solid 2px #003459;
+
+}
+.busquedas:focus{
+    outline: none;
+    transition: border-color 1s;
+    border-color: #007ea7;
+}
+.divBuscador{
+    text-align: center;
+}
+.divBuscador p{
+    padding: 30px 0 30px 0;
+    margin-left: 190px;
+    width: 70%;
+}
+.tituli{
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 30px;
+}
